@@ -15,6 +15,6 @@ export default class CreateAvatarFieldToUser1648043226977
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropColumn('users', 'avar');
+    await queryRunner.dropColumn('users', 'avatar');
   }
 }
